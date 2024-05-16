@@ -95,10 +95,10 @@ class Shimeji:
         self.canvas.pack()
         
         # Load GIFs
-        self.idle = self.load_gif('E:/tap trinh/shimeji-main/nô lệ vinh/asset/idle.gif')
-        self.appear = self.load_gif('E:/tap trinh/shimeji-main/nô lệ vinh/asset/appear.gif')
-        self.disappear = self.load_gif('E:/tap trinh/shimeji-main/nô lệ vinh/asset/disappear.gif')
-        self.move_gif = self.load_gif('E:/tap trinh/shimeji-main/nô lệ vinh/asset/move.gif')
+        self.idle = self.load_gif('asset/idle.gif')
+        self.appear = self.load_gif('asset/appear.gif')
+        self.disappear = self.load_gif('asset/disappear.gif')
+        self.move_gif = self.load_gif('asset/move.gif')
         
         self.animations = {
             "idle": self.idle,
